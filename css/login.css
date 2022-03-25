@@ -1,0 +1,98 @@
+.login {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.login::before {
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../imgs/bjt.png") no-repeat;
+  background-size: 100% 100%;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100px;
+  color: #285e30;
+  font-size: 24px;
+  line-height: 50px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.content {
+  position: relative;
+  width: 23%;
+  height: 65%;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.content .item {
+  width: 78%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.content .item:first-child {
+  margin-top: 18vh;
+  margin-bottom: 2vh;
+}
+
+.content .item div {
+  color: #605a5a;
+}
+
+.content .item input {
+  width: 100%;
+  height: 38px;
+  border-radius: 12px;
+  border: 1px solid #999;
+  padding: 0 10px;
+  color: #605a5a;
+  box-sizing: border-box;
+}
+
+.content .forget {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+  float: right;
+  margin-right: 10%;
+}
+
+.content .btn {
+  position: absolute;
+  left: 50%;
+  bottom: 11%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 10%;
+  background: #365a0c;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.content .btn a {
+  color: #fff;
+}

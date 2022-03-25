@@ -1,0 +1,247 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: #c2dbbd;
+  border-bottom: 1px solid #eee;
+}
+.header .title {
+  float: left;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100px;
+  color: #285e30;
+  font-size: 24px;
+  line-height: 50px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.header .nav {
+  height: 100%;
+  float: right;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav span {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  padding: 0px 10px;
+  margin: 0px 15px;
+  line-height: 54px;
+  display: inline-block;
+  color: #3b3c57;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.header .nav span:first-child {
+  border-bottom: 2px solid #fff;
+}
+
+.header .nav .login {
+  width: 70px;
+  background: #e5f2e2;
+  text-align: center;
+  height: 35px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  line-height: 35px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  margin-top: 51px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* home */
+#Home {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 52px);
+  background: url("../imgs/bjt.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+/* info */
+#Info {
+  display: none;
+  width: 100%;
+  height: calc(100vh - 65px);
+}
+
+/* index */
+.info {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.info .top {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 67%;
+  height: auto;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.info .top .title {
+  font-size: 45px;
+  font-family: "Rockwell";
+  color: #605a5a;
+}
+
+.info .top .text {
+  display: block;
+  font-size: 13px;
+  color: #999;
+}
+
+.info .list {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.info .list .item {
+  margin-top: 10px;
+  width: 230px;
+}
+
+.info .list .item .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #afafaf;
+  margin: 0 auto;
+}
+
+.info .list .item .type {
+  width: 150px;
+  text-align: center;
+  height: 36px;
+  font-size: 36px;
+  font-family: "Rockwell";
+  color: #605a5a;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.info .list .item li {
+  margin: 10px 0;
+  color: #707070;
+  font-size: 13px;
+}
+
+.info .movie {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.info .movie .title {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Rockwell";
+  color: #605a5a;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.info .footer {
+  text-align: center;
+}
+
+.info .footer .title {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Rockwell";
+  color: #605a5a;
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+.info .footer .website {
+  display: inline-block;
+  color: #285e30;
+  margin-bottom: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* about */
+#Abou {
+  display: none;
+  width: 100%;
+}
+
+.about .box,
+.about .box1 {
+  margin: 40px 0 10px 50px;
+}
+
+.about .box .title,
+.about .box1 .title {
+  width: 340px;
+  font-size: 28px;
+  font-family: "Rockwell";
+  color: #605a5a;
+  color: #000;
+}
+
+.about .box .title::after {
+  display: block;
+  content: " ";
+  width: 340x;
+  height: 2px;
+  background: #6c63ff;
+}
+
+.about .box1 .title::after {
+  display: block;
+  content: " ";
+  width: 310px;
+  height: 2px;
+  background: #6c63ff;
+}
+
+.about .box .text {
+  width: 50vw;
+  height: 110px;
+  font-family: "Rockwell";
+  color: #605a5a;
+  background: #f6f8f9;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-left: 30px;
+}
+
+.about .box1 .text {
+  width: 19vw;
+  height: 160px;
+  font-family: "Rockwell";
+  color: #605a5a;
+  background: #f6f8f9;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-left: 40px;
+}
+
+.about .box .text span,
+.about .box1 .text span {
+  display: block;
+  margin-bottom: 8px;
+}

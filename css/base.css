@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3b3c57;
+}
+
+input,
+select,
+option,
+textarea {
+  outline: none;
+}
